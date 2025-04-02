@@ -1,12 +1,11 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(MiX_ConsoleUtils VERSION 1 DESCRIPTION "Simple Library to Console jokes")
+project(MiX_ConsoleUtils VERSION 2 DESCRIPTION "Simple Library to Console jokes")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(SOURCES 
-src/main.cpp
 src/MiX_ConsoleUtils.cpp
 )
 set(INCLUDES 

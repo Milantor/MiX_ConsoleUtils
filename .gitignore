@@ -48,6 +48,9 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
+### CMake bin folders ###
+[Bb]uild*/
+
 ### CMake Patch ###
 CMakeUserPresets.json
 
