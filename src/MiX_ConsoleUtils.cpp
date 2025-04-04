@@ -2,9 +2,9 @@
 
 namespace MiX_ConsoleUtils
 {
-std::string ColorToShellCode(COLOR color)
-{
-    std::string shellCode;
+    std::string ColorToShellCode(COLOR color)
+    {
+        std::string shellCode;
         switch (color)
         {
         case COLOR::BLACK:
@@ -37,16 +37,6 @@ std::string ColorToShellCode(COLOR color)
         }
         return shellCode;
     }
-
-// int main()
-// {
-//     std::vector<std::string> literal{"Hello", "world!"};
-//     base_namespace::Print(literal, COLOR::MAGENTA);
-//     base_namespace::Print(literal);
-//     std::string a;
-//     std::cin >> a;
-//     return -1;
-// }
 
     void Print(std::vector<std::string> phrase, COLOR color = COLOR::RESET)
     {
