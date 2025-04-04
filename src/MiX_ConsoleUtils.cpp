@@ -38,16 +38,6 @@ namespace MiX_ConsoleUtils
         return shellCode;
     }
 
-    // int main()
-    // {
-    //     std::vector<std::string> literal{"Hello", "world!"};
-    //     base_namespace::Print(literal, COLOR::MAGENTA);
-    //     base_namespace::Print(literal);
-    //     std::string a;
-    //     std::cin >> a;
-    //     return -1;
-    // }
-
     void Print(std::vector<std::string> phrase, COLOR color = COLOR::RESET)
     {
         std::cout << ColorToShellCode(color);
