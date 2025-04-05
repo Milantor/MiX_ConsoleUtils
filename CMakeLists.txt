@@ -17,5 +17,5 @@ add_library(MiX_ConsoleUtils STATIC ${SOURCES})
 set_target_properties(MiX_ConsoleUtils PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties(MiX_ConsoleUtils PROPERTIES PUBLIC_HEADER "${INCLUDES}")
 
-target_include_directories(MiX_ConsoleUtils PRIVATE include)
+target_include_directories(MiX_ConsoleUtils PUBLIC include)
 target_include_directories(MiX_ConsoleUtils PRIVATE src)
