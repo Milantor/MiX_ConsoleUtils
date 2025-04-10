@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include <MiX_ConsoleUtils_Enums.hpp>
+#include "MiX_ConsoleUtils_Enums.hpp"
 
 #include <iostream>
 #include <string>
