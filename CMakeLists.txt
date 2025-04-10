@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0)
 
-project(MiX_ConsoleUtils VERSION 3 DESCRIPTION "Simple Library to Console jokes")
+project(MiX_ConsoleUtils VERSION 4 DESCRIPTION "Simple Library to Console jokes")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
